@@ -1,14 +1,18 @@
-import { Character } from './../src/game.js'
+import { Person } from './../src/age.js'
 
-describe('Character', () => {
-  test('should take in the variable', () => {
-    var newCharacter = new Character("Type", "Name", "Skills");
-    expect(newCharacter.type).toEqual("Type");
-    expect(newCharacter.name).toEqual("Name");
-    expect(newCharacter.skills).toEqual("Skills");
+describe('Person', () => {
+  test('should take in variables', () => {
+    var newPerson = new Person(1,.24, .62, 1.88, 11.68, 2);
+    expect(newPerson.currentAge).toEqual(1);
+    expect(newPerson.mercury).toEqual(.24);
+    expect(newPerson.currentAge).toEqual(.62);
+    expect(newPerson.currentAge).toEqual(1.88);
+    expect(newPerson.currentAge).toEqual(11.86);
+    expect(newPerson.timeLeft).toEqual(2);
+
 })
-  test("should return the type chosen", () => {
-    var newType = new Character ("Mage");
-    expect(newType.chooseType()).toEqual("You have chosen Mage");
+  test("should return age in Mercury years", () => {
+    var newMercury = new Character (10,2.4);
+    expect(newMercury.mercuryYears()).toEqual("You have chosen Mage");
   })
 });
