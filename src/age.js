@@ -1,7 +1,7 @@
-export class Game {
-  constructor(character, setting) {
-    this.character = character;
-    this.setting = setting;
+export class Person {
+  constructor(currentAge, timeLeft) {
+    this.currentAge = currentAge;
+    this.timeLeft = timeLeft;
   }
 
   whereAmI() {
@@ -10,7 +10,7 @@ export class Game {
 
 }
 
-export class Character {
+export class Age {
   constructor(type, name, skills) {
     this.type = type;
     this.name = name;
@@ -20,31 +20,5 @@ export class Character {
     // return 'You have chosen ' + this.type;
     return `You have chosen ${this.type}`
   }
-}
 
-export class Skills extends Character{
-  constructor(name, strength, speed, kindness, energy){
-    super(name);
-    this.strength = parseInt(strength);
-    this.speed = parseInt(speed);
-    this.kindness = parseInt(kindness);
-    this.energy = energy;
-  }
-
-  addStrength() {
-    return this.strength + 1;
-  }
-
-  addSpeed(){
-    return this.speed * 2;
-  }
-}
-
-export class Inventory extends Character {
-   constructor(name, weapons, food, medical){
-     super(name);
-     this.weapons = weapons;
-     this.food = food;
-     this.medical = medical;
    }
-}
