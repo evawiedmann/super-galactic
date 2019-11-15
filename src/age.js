@@ -12,13 +12,13 @@ export class Person {
     return `Your age is ${this.currentAge * .24} years on Mercury!`;
   }
   venusYears() {
-    return `Your age is ${this.currentAge * .62} years on Mercury!`;
+    return `Your age is ${this.currentAge * .62} years on Venus!`;
   }
   marsYears() {
-    return `Your age is ${this.currentAge * 1.88} years on Mercury!`;
+    return `Your age is ${this.currentAge * 1.88} years on Mars!`;
   }
   jupiterYears() {
-    return `Your age is ${this.currentAge * 11.86} years on Mercury!`;
+    return `Your age is ${this.currentAge * 11.86} years on Jupiter!`;
   }
   remainingYears() {
     return `Your age is ${this.currentAge * 2} years on Mercury!`;
