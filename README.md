@@ -7,13 +7,65 @@
 
 ### Project Description
 
-* ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
-  - Example Input: "3"
-  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
+* ####  The program takes in a person's inputted current age in years.
+  - Example Input: "55"
+  - Example Output: "55"
 
-* ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
-  - Example Input: "3"
-  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
+* ####  The program outputs the person's age in Mercury years.
+  - Example Input: "10"
+  - Example Output: "Your age is 2.4 years on Mercury!"
+
+* ####  The program outputs the person's age in Venus years.
+  - Example Input: "10"
+  - Example Output: "Your age is 6.2 years on Venus!"
+
+* ####  The program outputs the person's age in Mars years.
+  - Example Input: "10"
+  - Example Output: "Your age is 18.8 years on Mars!"
+
+* ####  The program outputs the person's age in Jupiter years.
+  - Example Input: "10"
+  - Example Output: "Your age is 118.6 years on Jupiter!"
+
+* ####  The program calculates the person's remaining time on Earth in years.
+  - Example Input: "50"
+  - Example Output: "25"
+
+* ####  The program outputs the person's remaining time in Mercury years.
+  - Example Input: "10"
+  - Example Output: "Your age is 2.4 years on Mercury!"
+
+* ####  The program outputs the person's remaining time in Venus years.
+  - Example Input: "10"
+  - Example Output: "Your age is 6.2 years on Venus!"
+
+* ####  The program outputs the person's remaining time in Mars years.
+  - Example Input: "10"
+  - Example Output: "Your age is 18.8 years on Mars!"
+
+* ####  The program outputs the person's remaining time in Jupiter years.
+  - Example Input: "10"
+  - Example Output: "Your age is 118.6 years on Jupiter!"
+
+* #### The program returns the number of years the person has lived past the life expectancy, if they are already older than their life expectancy.
+  - Example Input: "180"
+  - Example Output: "You are living on borrowed time, 100 years to be exact."
+
+* #### The program returns the number of years on Mercury the person has lived past the life expectancy, if they are already older than their life expectancy.
+  - Example Input: "180"
+  - Example Output: "You are living on borrowed time, 24 years on Mercury to be exact."
+
+* #### The program returns the number of years on Venus the person has lived past the life expectancy, if they are already older than their life expectancy.
+  - Example Input: "180"
+  - Example Output: "You are living on borrowed time, 62 years on Venus to be exact."
+
+* #### The program returns the number of years on Mars the person has lived past the life expectancy, if they are already older than their life expectancy.
+  - Example Input: "180"
+  - Example Output: "You are living on borrowed time, 188 years on Mars to be exact."
+
+* #### The program returns the number of years on Jupiter the person has lived past the life expectancy, if they are already older than their life expectancy.
+  - Example Input: "180"
+  - Example Output: "You are living on borrowed time, 1168 years on Jupiter to be exact."
 
 
 ### Technologies Used
