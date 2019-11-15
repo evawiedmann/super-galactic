@@ -1,10 +1,19 @@
 # PROJECT TITLE
 
+#### _Program that produces varied results depending upon the user's numerical input, 15 Nov 2019_
+
+
 ## Created by Eva Wiedmann
 
 ### Project Description
 
+* ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
+  - Example Input: "3"
+  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
+* ####  The program returns "I'm sorry, Dave. I'm afraid I can't do that." when user input includes "3".
+  - Example Input: "3"
+  - Example Output: "I'm sorry, Dave. I'm afraid I can't do that."
 
 
 ### Technologies Used
