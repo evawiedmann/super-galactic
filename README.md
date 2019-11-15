@@ -78,9 +78,6 @@ There shouldn't be any special setup required. If something doesn't display corr
 ### Known Issues
 * No known issues.
 
-
-
 ### License
-This software is licensed under the MIT license.
 
 _Copyright (c) 2019 **Eva Wiedmann**_
