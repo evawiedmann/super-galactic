@@ -1,6 +1,6 @@
 # PROJECT TITLE
 
-## Created by FIRST LAST and FIRST LAST on DATE
+## Created by Eva Wiedmann
 
 ### Project Description
 This project was completed as part of the Epicodus in-class curriculum. The task description was as follows:
@@ -24,4 +24,4 @@ There shouldn't be any special setup required. If something doesn't display corr
 ### License
 This software is licensed under the MIT license.
 
-_Copyright (c) 2019 ** FIRST LAST and FIRST LAST **_
+_Copyright (c) 2019 **Eva Wiedmann**_
