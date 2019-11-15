@@ -6,7 +6,10 @@ export class Person {
     this.mars = mars;
     this.jupiter = jupiter;
     this.timeLeft = timeLeft;
-  }
+    this.timeLeftVenus = timeLeft;
+    this.timeLeftMars = timeLeft;
+    this.timeLeftJupiter = timeLeft;
+  };
 
   mercuryYears() {
     return `Your age is ${this.currentAge * .24} years on Mercury!`;
@@ -20,8 +23,20 @@ export class Person {
   jupiterYears() {
     return `Your age is ${this.currentAge * 11.86} years on Jupiter!`;
   }
-  remainingYears() {
-    return `Your age is ${this.currentAge * 2} years on Mercury!`;
+  remainingYearsOnEarth() {
+    return `You have ${this.currentAge} years left on Earth!`;
+  }
+  remainingYearsOnMercury() {
+    return `Your age is ${this.currentAge * .24} years on Mercury!`;
+  }
+  remainingYearsOnVenus() {
+    return `You have ${this.currentAge * .62} years left on Venus!`;
+  }
+  remainingYearsOnMars() {
+    return `You have ${this.currentAge * 1.88} years left on Mars!`;
+  }
+  remainingYearsOnJupiter() {
+    return `You have ${this.currentAge * 11.86} years left on Jupiter!`;
   }
 // }
 //
