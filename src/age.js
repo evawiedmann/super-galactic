@@ -11,16 +11,16 @@ export class Person {
     this.timeLeftJupiter = timeLeft;
   };
   mercuryYears() {
-    return `Your age is ${this.currentAge * .24} years on Mercury!`;
+    return `Your age is ${this.currentAge} * .24 years on Mercury!`;
   };
   venusYears() {
-    return `Your age is ${this.currentAge * .62} years on Venus!`;
+    return `Your age is ${this.currentAge} * .62}years on Venus!`;
   };
   marsYears() {
-    return `Your age is ${this.currentAge * 1.88} years on Mars!`;
+    return `Your age is ${this.currentAge} * 1.88 years on Mars!`;
   };
   jupiterYears() {
-    return `Your age is ${this.currentAge * 11.86} years on Jupiter!`;
+    return `Your age is ${this.currentAge} * 11.86 years on Jupiter!`;
   };
 };
 
@@ -33,18 +33,38 @@ export class Hourglass {
     this.remainJupiter = remainJupiter;
   }
   remainingYearsOnEarth() {
-    return `You have (80 - ${this.currentAge}) years left on Earth!`;
+    if (this.currentAge <= 80) {
+      return `You have (80 - ${this.currentAge}) years left on Earth!`;
+    } else {
+      return
+    }
   };
   remainingYearsOnMercury() {
-    return `Your age is ((80 - ${this.currentAge}) * .24) years on Mercury!`;
+    if (this.currentAge <= 80) {
+      return `Your age is ((80 - ${this.currentAge}) * .24) years on Mercury!`;
+    } else {
+
+    }
   };
   remainingYearsOnVenus() {
-    return `You have ((80 - ${this.currentAge}) * .62) years left on Venus!`;
+    if (this.currentAge <= 80) {
+      return `You have ((80 - ${this.currentAge}) * .62) years left on Venus!`;
+    } else {
+      return
+    }
   };
   remainingYearsOnMars() {
-    return `You have ((80 - ${this.currentAge}) * 1.88) years left on Mars!`;
+    if (this.currentAge <= 80) {
+      return `You have ((80 - ${this.currentAge}) * 1.88) years left on Mars!`;
+    } else {
+      return
+    }
   };
   remainingYearsOnJupiter() {
-    return `You have ((80 - ${this.currentAge} * 11.86) years left on Jupiter!`;
+    if (this.currentAge <= 80) {
+      return `You have ((80 - ${this.currentAge} * 11.86) years left on Jupiter!`;
+    } else {
+      return
+    }
   };
 };
