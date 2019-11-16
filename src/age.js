@@ -11,16 +11,16 @@ export class Person {
     this.timeLeftJupiter = timeLeft;
   };
   mercuryYears() {
-    return `Your age is ${this.currentAge} * .24 years on Mercury!`;
+    return `Your age is (${this.currentAge} * .24) years on Mercury!`;
   };
   venusYears() {
-    return `Your age is ${this.currentAge} * .62}years on Venus!`;
+    return `Your age is (${this.currentAge} * .62) years on Venus!`;
   };
   marsYears() {
-    return `Your age is ${this.currentAge} * 1.88 years on Mars!`;
+    return `Your age is (${this.currentAge} * 1.88) years on Mars!`;
   };
   jupiterYears() {
-    return `Your age is ${this.currentAge} * 11.86 years on Jupiter!`;
+    return `Your age is (${this.currentAge} * 11.86) years on Jupiter!`;
   };
 };
 
@@ -36,13 +36,14 @@ export class Hourglass {
     if (this.currentAge <= 80) {
       return `You have (80 - ${this.currentAge}) years left on Earth!`;
     } else {
-      return
+      return "You are living on borrowed time, (${this.currentAge} - 80) years to be exact."
     }
   };
   remainingYearsOnMercury() {
     if (this.currentAge <= 80) {
       return `Your age is ((80 - ${this.currentAge}) * .24) years on Mercury!`;
     } else {
+      return "You are living on borrowed time, ((${this.currentAge} - 80) * .24) years on Mercury to be exact."
 
     }
   };
@@ -50,21 +51,21 @@ export class Hourglass {
     if (this.currentAge <= 80) {
       return `You have ((80 - ${this.currentAge}) * .62) years left on Venus!`;
     } else {
-      return
+      return "You are living on borrowed time, ((${this.currentAge} - 80) * .62) years on Venus to be exact."
     }
   };
   remainingYearsOnMars() {
     if (this.currentAge <= 80) {
       return `You have ((80 - ${this.currentAge}) * 1.88) years left on Mars!`;
     } else {
-      return
+      return "You are living on borrowed time, ((${this.currentAge} - 80) * 1.88) years on Mars to be exact."
     }
   };
   remainingYearsOnJupiter() {
     if (this.currentAge <= 80) {
       return `You have ((80 - ${this.currentAge} * 11.86) years left on Jupiter!`;
     } else {
-      return
+      return "You are living on borrowed time, ((${this.currentAge} - 80) * 11.86) years on Jupiter to be exact."
     }
   };
 };

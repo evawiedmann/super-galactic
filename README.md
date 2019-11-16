@@ -1,7 +1,6 @@
 # PROJECT TITLE
 
-#### _Program that produces varied results depending upon the user's numerical input, 15 Nov 2019_
-
+#### _Program that takes inputted age and give user age on different planets based on their respective year lengths, 15 Nov 2019_
 
 ## Created by Eva Wiedmann
 
@@ -73,7 +72,7 @@ HTML, CSS, JavaScript, jQuery, clean-webpack-plugin 3.0.0, css-loader 3.2.0, esl
 Project was written using Google Chrome; no other browsers were tested for compatibility.
 
 ### Project Setup instructions
-There shouldn't be any special setup required. If something doesn't display correctly or goes wrong somehow, please contact us at <email> and <email> and we will do our best to troubleshoot for you.
+If something goes awry, please contact <evawiedmann@gmail.com> I will do my best to troubleshoot for you.
 
 ### Known Issues
 * No known issues.
