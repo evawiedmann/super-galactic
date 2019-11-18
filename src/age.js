@@ -62,7 +62,6 @@ export class Hourglass {
       return `You have ${(80 - this.currentAge) * 11.86} years left on Jupiter!`;
     } else {
       return `You are living on borrowed time, ${(this.currentAge - 80) * 11.86} years on Jupiter to be exact.`;
-
     };
   };
 };
