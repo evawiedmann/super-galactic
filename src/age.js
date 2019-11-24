@@ -5,6 +5,7 @@ export class Person {
     this.venus = 0.62;
     this.mars = 1.88;
     this.jupiter = 11.68;
+    this.pluto = 248;
   };
   mercuryYears() {
     return `Your age is ${this.currentAge * this.mercury} years on Mercury!`;
@@ -17,6 +18,9 @@ export class Person {
   };
   jupiterYears() {
     return `Your age is ${this.currentAge * this.jupiter} years on Jupiter!`;
+  };
+  plutoYears() {
+    return `Your age is ${this.currentAge * this.pluto} years on Pluto!`;
   };
 };
 
