@@ -22,7 +22,11 @@ describe('Person', () => {
     expect(newPerson.plutoYears()).toEqual(`Your age is ${newPerson.pluto} years on Pluto!`);
   });
   test("should return age in years on PlanetX", () => {
-    const newPerson = new Person(248);
+    const newPerson = new Person(100);
     expect(newPerson.planetXYears()).toEqual(`Your age is ${newPerson.planetX} years on PlanetX!`);
+  });
+  test("should return age in years on the Enterprise", () => {
+    const newPerson = new Person(30);
+    expect(newPerson.enterpriseYears()).toEqual(`Your age is ${newPerson.enterprise} years on the Enterprise!`);
   });
 });
