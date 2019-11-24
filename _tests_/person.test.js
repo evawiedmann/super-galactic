@@ -1,14 +1,6 @@
 import { Person } from './../src/age.js'
 
 describe('Person', () => {
-  test('should take in variables', () => {
-    const newPerson = new Person(1,1,1,1,1);
-    expect(newPerson.currentAge).toEqual(1);
-    expect(newPerson.mercury).toEqual(.24);
-    expect(newPerson.venus).toEqual(.62);
-    expect(newPerson.mars).toEqual(1.88);
-    expect(newPerson.jupiter).toEqual(11.68);
-  });
   test("should return age in years on Mercury", () => {
     const newPerson = new Person(.24);
     expect(newPerson.mercuryYears()).toEqual(`Your age is ${newPerson.mercury} years on Mercury!`);
@@ -28,5 +20,9 @@ describe('Person', () => {
   test("should return age in years on Pluto", () => {
     const newPerson = new Person(248);
     expect(newPerson.plutoYears()).toEqual(`Your age is ${newPerson.pluto} years on Pluto!`);
+  });
+  test("should return age in years on PlanetX", () => {
+    const newPerson = new Person(248);
+    expect(newPerson.planetXYears()).toEqual(`Your age is ${newPerson.planetX} years on PlanetX!`);
   });
 });
